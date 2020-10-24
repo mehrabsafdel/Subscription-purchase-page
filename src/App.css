@@ -1,0 +1,128 @@
+.main{
+        background-image: linear-gradient(#0F3866, #1857A0);
+}
+
+.cOne{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+      height: 125px;
+      width: 125px;
+      background-color: rgba(187, 187, 187, 0);
+      border-radius: 50%;
+      border: 8px solid #1E6FCB;
+      display: inline-block;
+    animation-name: one;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.cTwo {
+    position: absolute;
+    top: -100px;
+    left: 900px;
+    height: 175px;
+    width: 175px;
+    background-color: rgba(187, 187, 187, 0);
+    border-radius: 50%;
+    border: 4px solid #0E99A7;
+    display: inline-block;
+    animation-name: two;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.cThree {
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    height: 175px;
+    width: 175px;
+    background-color: rgba(187, 187, 187, 0);
+    border-radius: 50%;
+    border: 4px solid #0E99A7;
+    display: inline-block;
+    animation-name: three;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.cFour {
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    height: 175px;
+    width: 175px;
+    background-color: rgba(187, 187, 187, 0);
+    border-radius: 50%;
+    border: 4px solid #0E99A7;
+    display: inline-block;
+}
+
+.cFive {
+    position: absolute;
+    top: 700px;
+    right: 80px;
+    height: 55px;
+    width: 55px;
+    background-color: #0E99A7;
+    border-radius: 50%;
+    border: 4px solid #0E99A7;
+    display: inline-block;
+}
+
+.cSix {
+    position: absolute;
+    top: 900px;
+    right: -40px;
+    height: 175px;
+    width: 175px;
+    background-color: #0E99A7;
+    border-radius: 50%;
+    border: 4px solid #0E99A7;
+    display: inline-block;
+}
+
+.cSeven {
+    position: absolute;
+    top: 1070px;
+    left: 160px;
+    height: 175px;
+    width: 175px;
+    background-color: #0E99A7;
+    border-radius: 50%;
+    border: 4px solid #0E99A7;
+    display: inline-block;
+}
+.cEight {
+    position: absolute;
+    top: 900px;
+    left: -40px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(187, 187, 187, 0);
+    border-radius: 50%;
+    border: 8px solid #0E99A7;
+    display: inline-block;
+
+}
+
+
+@keyframes three {
+  0%   {top:300px;}
+  50%  {top:150px;}
+  100% {top:300px;}
+}
+
+@keyframes two {
+  0%   {left:900px;}
+  50%  {left:700px;}
+  100% {left:900px;}
+}
+
+@keyframes one {
+  0%   {border :8px solid #1E6FCB;}
+  50%  {border :62px solid #0E99A7;}
+  100% {border :8px solid #1E6FCB;}
+}

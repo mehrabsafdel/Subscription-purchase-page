@@ -1,0 +1,52 @@
+.bag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 5px 40px;
+}
+
+.money{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 10px;
+}
+
+.rightText{
+    width: 80%;
+    float: right;
+    direction: rtl;
+    text-align: right;
+}
+
+.leftNumber{
+    width: 15%;
+    direction: rtl;
+    float: left;
+    text-align: left;
+}
+
+.emp{
+    margin: 0px;
+    float: right;
+}
+
+.centerText{
+    font-size: large;
+    margin-top: 20px;
+}
+
+.cost{
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    padding: 30px 10px;
+    width: 80%;
+    font-size: larger;
+}
+
+.cost:hover{
+        background-color: #b4b4b4;
+
+}

@@ -1,0 +1,40 @@
+.subscription{
+    border: 7px solid #949494;
+    border-radius: 20px 0px 20px 0px;
+    padding: 20px 25px 20px 25px;
+    margin: 5px 15px;
+    color: #949494;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.active{
+    border: 7px solid #0E99A7;
+    border-radius: 20px 0px 20px 0px;
+    padding: 20px 25px 20px 25px;
+    margin: 5px 15px;
+    color: #1E6FCB;
+    z-index: 100;
+}
+
+.icon{
+    border: 7px solid #0E99A7;
+    border-radius: 50%;
+    color: #4CD137;
+    z-index: 200;
+}
+
+.iconContainer{
+    margin-top: 0px;
+    /* padding-bottom: 50px; */
+    float: left;
+    position: absolute;
+    background-color: white;
+}
+
+.disableIcon{
+    border: 7px solid #949494;
+    border-radius: 50%;
+    color: white;
+    z-index: 200;
+}
